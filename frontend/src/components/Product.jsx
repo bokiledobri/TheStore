@@ -8,7 +8,7 @@ const Product = ({ product }) => {
       <img
         src={product.image}
         alt={product.name}
-        className="h-48 w-full rounded object-cover"
+        className="h-48 w-full rounded object-cover object-fill"
       />
       <Rating value={product.rating} text={product.numReviews + " reviews"} />
       <p className="self-start text-lg font-semibold text-stone-700 dark:text-stone-300">
